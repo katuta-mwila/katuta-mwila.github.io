@@ -101,14 +101,14 @@ h3 {
 /* tablets */
 @media only screen and (max-width: 919px) {
   .main-section {
-    width: 75vw;
+    width: 70vw;
     padding-left: 30px;
     padding-right: 30px;
   }
 }
 
 /* phones */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 510px) {
   .main-section {
     width: 100vw;
     padding-left: 30px;
