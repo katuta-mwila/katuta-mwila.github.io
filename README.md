@@ -1,3 +1,3 @@
-# katuta-mwila.github.io
-## Welcome to my blog
-Here I document my dev academy journey
+# Welcome to my blog
+Here I document my dev academy journey.
+[Blog Link](https://katuta-mwila.github.io/)
