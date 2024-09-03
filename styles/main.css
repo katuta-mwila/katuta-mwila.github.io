@@ -89,6 +89,30 @@ h4 {
   width: 100%;
 }
 
+.g10 > * {
+  margin-bottom: 10px;
+}
+
+.g10 > *:last-child {
+  margin-bottom: 0;
+}
+
+.g20 > * {
+  margin-bottom: 20px;
+}
+
+.g20 > *:last-child {
+  margin-bottom: 0;
+}
+
+.g30 > * {
+  margin-bottom: 30px;
+}
+
+.g30 > *:last-child {
+  margin-bottom: 0;
+}
+
 .m10 {
   margin-bottom: 10px;
 }
