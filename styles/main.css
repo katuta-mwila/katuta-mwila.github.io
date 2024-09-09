@@ -41,6 +41,14 @@ h4 {
   font-size: 20px;
 }
 
+h5 {
+  font-size: 18px;
+}
+
+ul {
+  margin: 0;
+}
+
 #main-content {
   display: flex;
   flex-direction: column;
@@ -87,6 +95,14 @@ h4 {
 
 .blog-category {
   width: 100%;
+}
+
+.g5 > * {
+  margin-bottom: 5px;
+}
+
+.g5 > *:last-child {
+  margin-bottom: 0;
 }
 
 .g10 > * {
