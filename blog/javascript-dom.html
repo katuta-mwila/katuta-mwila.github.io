@@ -1,0 +1,89 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+    <title>JavaScript Dom</title>
+  </head>
+  <body></body>
+    <main id="main-content">
+      <div class="main-vertical">
+        <div class="main-section">
+          <div id="main-title">
+            <h1 class="tac">Katuta Mwila Blog Posts</h1>
+          </div>
+        </div>
+        <div id="content-lower" class="main-section g30">
+          <section class="blog-intro g10">
+            <h2>JavaScript Dom</h2>
+            <p>This post will explore JavaScript and its relationship to HTML and CSS</p>
+          </section>
+          <section class="blog-category g10">
+            <h3>Relation between JavaScript, HTML, and CSS</h3>
+            <p>HTML is the structure of a website and decides the website's content. It decides what text, images, video, audio, 
+              are on the website as well as containing all its components in a particular structure.</p>
+            <p>CSS decides the style of a website by telling each component in the website how it should look
+              such as its width, height, text color, background color, and spacing.
+            </p>
+            <p>JavaScript is a programming language that provides a way to manipulate both the HTML and the CSS after the page is loaded. This means it can
+              change the website's content and its style in real time. This is useful because it means that websites can be interactive and responsive to user inputs.
+            </p>
+          </section>
+          <section class="blog-category g10">
+            <h3>Control Flow and Loops</h3>
+            <p>Control flow is the order that instructions are executed by the computer. 
+              Control flow is necessary because most pieces of code will always need to be executed in the exact same order every time otherwise you will not get the desired result.
+            </p>
+            <p>
+              One way of controlling flow in JavaScript is using loops. Loops are a mechanism used to repeat a set of instructions a defined amount of times.
+            </p>
+            <p>An example of control flow in
+              real life is when you are at the gym and doing an exercize involving lifting weights. The first step will be to grab the weights, the next step might be to lift the weights 10 times,
+              and the final step will be to put the weights back. The second step to lift the weights 10 times is like a loop as you are repeating the same instruction 10 times.
+            </p>
+          </section>
+          <section class="blog-category g10">
+            <h3>Document Object Model (DOM)</h3>
+            <p>The DOM is an object that represents the structure of a webpage. It is a tree structure where at the top you have the root element which itself will have child elements branching off it
+              and each child element can have elements branch off it and so on.
+            </p>
+            <p>JavaScript is used when you want to make any changes to a part of the DOM structure. All you have to do is to find the element in the structure you need and then apply changes to it.</p>
+            <div>
+              <p>Below is an example of this in action.</p>
+              <p>The color of the box will change every time you click on it.</p>
+            </div>
+            <div id='dom-test-box'></div>
+          </section>
+          <section class="blog-category g20">
+            <h3>Arrays and Objects</h3>
+            <div class="g5">
+              <h5>Arrays</h5>
+              <p>Arrays are used to store a collection of data under one name. 
+                The data is indexed in sequential order starting from 0 meaning the data can be accessed by using its index. 
+                The index is based on the order the data is added to the array with the first data added having an index of 0, 
+                the second data added having an index of 1 and so on.</p>
+            </div>  
+            <img src="../images/arrex.PNG" class="example-image"/>
+            <div class="g5">
+              <h5>Objects</h5>
+              <p>Objects can also store many pieces of data under one name except they store the data using key value pairs.
+                A key value pair is when a piece of data is tied to the key that acts as an identifier for the data. The data in an object can be
+                accessed by using the key.
+              </p>
+            </div>      
+            <img src="../images/objex.PNG" class="example-image">
+          </section>
+          <section class="blog-category g10">
+            <h3>Functions</h3>
+            <p>Functions in JavaScript are a block of code made up of a sequence of statements. Functions can be called at any point in the code as many times as needed.
+              Functions have a return value which is returned to the point of code the function is called. The caller can also pass in data to the function called parameters where the data
+              will be used inside of the function to produce the desired output.
+            </p>
+            <p>Functions are useful because they avoid the need to repeat code as well as improving readability.</p>
+          </section>
+        </div>
+      </div>
+    </main>
+    <script src="../scripts/script.js"></script>
+  </body>
+</html>

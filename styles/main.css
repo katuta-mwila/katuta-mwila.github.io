@@ -217,6 +217,10 @@ ul {
   padding: 50px;
 }
 
+.example-image{
+  max-width: 100%;
+}
+
 /* widescreen displays */
 @media only screen and (min-width: 920px) {
 }
@@ -237,4 +241,12 @@ ul {
     padding-left: 30px;
     padding-right: 30px;
   }
+}
+
+#dom-test-box{
+  border: 1px solid #000;
+  border-radius: 5px;
+  width: 250px;
+  height: 150px;
+  cursor: pointer;
 }
