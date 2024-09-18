@@ -223,6 +223,11 @@ ul {
 
 .wellbeing-table{
   border-collapse: collapse;
+  width: 100%;
+}
+
+.wellbeing-table ul{
+  padding-left: 20px;
 }
 
 .wellbeing-table tr{
