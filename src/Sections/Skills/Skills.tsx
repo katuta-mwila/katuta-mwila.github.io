@@ -1,7 +1,7 @@
 import { Box, VertBox } from "../../Components/Box";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode, faDatabase } from '@fortawesome/free-solid-svg-icons'
-import { faCss, faGit, faGithub, faHtml5, faJs, faLinux, faNode, faNodeJs, faReact, faWindows } from '@fortawesome/free-brands-svg-icons'
+import { faCss, faGithub, faHtml5, faJs, faLinux, faNodeJs, faReact, faWindows } from '@fortawesome/free-brands-svg-icons'
 import SkillTile from "./SkillTile";
 
 export default function Skills(){
