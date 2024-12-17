@@ -13,7 +13,7 @@ export default function Contact(){
       <h3>Find me on the following platforms</h3>
       <ContactItem icon={faLinkedin} text='LinkedIn' link='https://www.linkedin.com/in/katuta-mwila-b9b498341/'/>
       <ContactItem icon={faGithub} text='GitHub' link='https://github.com/katuta-mwila'/>
-      <ContactItem icon={faEnvelope} text='katutam.mwilam@gmail.com' link='/'/>
+      <ContactItem icon={faEnvelope} text='katutam.mwilam@gmail.com' link='mailto:katutam.mwilam@gmail.com'/>
       <CVBox/>
     </VertBox>
   </VertBox>

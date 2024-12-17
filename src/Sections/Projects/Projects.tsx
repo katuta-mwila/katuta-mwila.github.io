@@ -40,7 +40,7 @@ export default function Projects(){
                 <SkillTile text="Express"/>
                 <SkillTile text="Knex"/>
               </Box>
-              <p style={{marginTop: '10px'}}>Performance Logger uses <a target='_blank' className="link" href='https://auth0.com/'>Auth0</a> for use authentication and was deployed using the cloud service <a target='_blank' className="link" href='https://vercel.com/'>Vercel</a>.</p>
+              <p style={{marginTop: '10px'}}>Performance Logger uses <a target='_blank' className="link" href='https://auth0.com/'>Auth0</a> for authentication and was deployed using the cloud service <a target='_blank' className="link" href='https://vercel.com/'>Vercel</a>.</p>
             </VertBox>
             <VertBox className="proj-sec" gap='10px'>
               <h3 className="font-bold">What I Learned</h3>
@@ -80,19 +80,19 @@ export default function Projects(){
           <VertBox className="proj-left" gap='20px'>
             <VertBox className="proj-sec" gap='20px'>
               
-              <p>A website containing three games, Tic Tac Toe, Connect 4 and Checkers. All games can be played two player locally, singleplayer vs Ai or two player online.</p>
+              <p>Games Center is a website containing three games, Tic Tac Toe, Connect 4 and Checkers. All games can be played two player locally, singleplayer vs Ai or two player online.</p>
             </VertBox>
             <VertBox className="proj-sec" gap='20px'>
               <h3 className="font-bold">Development</h3>
-              <p>Games Center uses .NET 7.0 for the backend API with the front end developed using react as the main framework. The main purpose of using a backend is to facilitate the use of websockets that are required for the online mode to function.
-                The backend is also responsible for creating tokens that are associated with the display name a user chooses allowing a user to keep the same name between refreshes.
+              <p>Games Center uses .NET 7.0 for the backend API and uses React for the front end framework. The main purpose of using a backend is to facilitate the use of websockets that are required for the online mode to function.
+                The backend is also responsible for creating tokens that are associated with the display name a user chooses allowing a user to keep the same name between sessions.
               </p>
               <p>The website was deployed publicly using a Microsoft Azure app service.</p>
             </VertBox>
             <VertBox className="proj-sec" gap='10px'>
               <h3 className="font-bold">What I Learned</h3>
               <ul className="list-disc list-inside">
-                <li>How to create a game Ai using the minimax Algorithm. Every game uses this algorithm to create the Ai, each of the difficulties have some slight adjustments to create separation between the difficulties.</li>
+                <li>How to create a game Ai using the <a className="link" href='https://en.wikipedia.org/wiki/Minimax' target='_blank'>minimax</a> algorithm. Every game uses this algorithm to create the Ai, each of the difficulties have some slight adjustments to create separation between the difficulties.</li>
                 <li>How to use React context.</li>
                 <li>How to use Web Workers in javascript. Because the Ai sometimes takes a non negligible time to calculate the best move this task was better done in the background of the application so that it does not hang the ui.</li>
                 <li>How to use Web Sockets. For the online mode web sockets were necessary to allow two way communication between the client and the server.</li>
@@ -161,6 +161,7 @@ export default function Projects(){
             <VertBox className="proj-sec" gap='10px'>
               <h3 className="font-bold">Links</h3>
               <ul className="list-disc list-inside">
+                <li><a target='_blank' className="link" href='https://flag-guesser-dun.vercel.app/'>Website</a></li>
                 <li><a target='_blank' className="link" href='https://github.com/katuta-mwila/Flag-Guesser'>GitHub</a></li>
               </ul>
             </VertBox>
