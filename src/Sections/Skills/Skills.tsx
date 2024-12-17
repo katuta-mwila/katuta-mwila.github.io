@@ -5,7 +5,7 @@ import { faCss, faGithub, faHtml5, faJs, faLinux, faNodeJs, faReact, faWindows }
 import SkillTile from "./SkillTile";
 
 export default function Skills(){
-  return <VertBox tag='section' id='skills' className="flex flex-col items-center" gap='20px'>
+  return <VertBox tag='section' id='Skills' className="flex flex-col items-center" gap='20px'>
     <div className="content-width">
       <h2 id="About">Skills</h2>
     </div>
@@ -28,6 +28,12 @@ export default function Skills(){
           <SkillTile icon={faWindows} text="Windows OS"/>
           <SkillTile icon={faLinux} text='Linux OS'/>
         </Box>
+        <h4>Other skills</h4>
+        <ul className="list-disc list-inside">
+          <li>Problem Solving</li>
+          <li>Troubleshooting and debugging errors</li>
+          <li>Ability to learn and grow from feedback</li>
+        </ul>
       </VertBox>
     </div>
   </VertBox>
