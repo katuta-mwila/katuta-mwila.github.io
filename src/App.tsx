@@ -8,19 +8,27 @@ import Intro from './Sections/Intro/Intro'
 import Projects from './Sections/Projects/Projects'
 import Skills from './Sections/Skills/Skills'
 import WIWO from './Sections/WIWO/WIWO'
+import Certifications from './Sections/Certifications/Certifications'
+import { VertBox } from './Components/Box'
 
 function App() {
 
   return (
-    <>
-      <Navigation/>
-      <Intro/>
-      <About/>
-      <Skills/>
-      <Projects/>
-      <WIWO/>
-      <Contact/>
-    </>
+    <div id='all-content'>
+        <Navigation/>
+        <Intro/>
+
+        <VertBox tag='sections' id='gradient-strip'>
+
+        </VertBox>
+
+        <About/>
+        <Certifications/>
+        <Skills/>
+        <Projects/>
+        <WIWO/>
+        <Contact/>   
+    </div>
   )
 }
 

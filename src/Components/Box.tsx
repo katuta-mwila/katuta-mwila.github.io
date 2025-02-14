@@ -7,7 +7,7 @@ interface BaseProps{
   style?: React.HTMLAttributes<HTMLDivElement> 
 }
 
-type Props = BaseProps & React.HTMLAttributes<HTMLElement>
+type Props = BaseProps & React.HTMLAttributes<HTMLElement> & React.AnchorHTMLAttributes<HTMLAnchorElement>
 
 export class Box extends Component<Props> {
 

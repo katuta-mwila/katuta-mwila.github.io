@@ -11,7 +11,7 @@ export default function About(){
       </div>
       <VertBox>
         <h3>Katuta Mwila</h3>
-        <p className="gp">I am a Full Stack web developer passionate about creating websites that are both practical and impactful. Problem solving is something I enjoy and is often a skill I have needed when developing tools and websites to simplify tasks in my own life. My journey combines a strong self-taught foundation with formal training through Dev Academy NZ. During my self-directed learning, I gained the majority of my technical skills and knowledge in Full Stack development. At Dev Academy, I expanded on this expertise and developed the ability to collaborate in team environments, particularly through group projects during the bootcamp period of the course.</p>
+        <p className="gp">I am a software developer with a passion for building practical and user-friendly websites. Problem solving is what I do best, and I have a track record of creating web applications that simplify complex tasks for everyday users. My expertise in Full Stack development has been shaped through hands-on experience, continuous learning, and formal training at Dev Academy NZ, where I refined my skills and collaborated on team-based projects. On top of my experience in developing websites I have experience in using the cloud to deploy my website as demonstrated in this portfolio. This portfolio features a selection of projects, each demonstrating my skills through live, publicly deployed websites.</p>
       </VertBox>
     </div>
   </VertBox>

@@ -35,13 +35,20 @@ li, p{
 
 section{
   padding-bottom: 60px;
+  background-color: rgb(29, 49, 85);
 }
 
 #root{
   color: white;
-  background-color: rgb(29, 49, 85);
+  /*background-color: rgb(29, 49, 85);*/
   overflow: hidden;
   padding-bottom: 100px;
+  position: relative;
+}
+
+#all-content{
+  position: relative;
+  z-index: 1;
 }
 
 nav{
@@ -154,6 +161,11 @@ a.link{
   color: rgb(241, 114, 110) !important;
 }
 
+a.link-on-hover:hover{
+  text-decoration: underline !important;
+  color: rgb(241, 114, 110) !important;
+}
+
 .proj-img-sec{
   
 }
@@ -188,4 +200,13 @@ a.link{
 
 .nav-text{
   font-size: 22px;
+}
+
+#About{
+  padding-top: 30px;
+}
+
+#gradient-strip{
+  height: 60px;
+  background: linear-gradient(0deg, rgba(29, 49, 85, 1), rgba(29, 49, 85, 0))
 }

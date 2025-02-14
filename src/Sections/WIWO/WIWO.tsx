@@ -6,8 +6,7 @@ export default function WIWO(){
       <h2>What I'm Working On</h2>
     </div>
     <VertBox className="content-box content-width contact-box items-start" gap='15px'>
-      <p>I am currently in the process of acquiring cloud certifications for Microsoft Azure as cloud computing is an area I am
-        developing my expertise in. Besides this I am investigating how to use AI text to speech models
+      <p>I have recently completed the Microsoft Azure Fundamentals certificate and am in the process of completing more cloud certifications as deploying software publicly is just as important as developing the software.. Besides this I am investigating how to use AI text to speech models
         for the purpose of translating text into realistic sounding speech across a variety of languages.
       </p>
     </VertBox>
