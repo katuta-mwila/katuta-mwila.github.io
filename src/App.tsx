@@ -27,7 +27,8 @@ function App() {
         <Skills/>
         <Projects/>
         <WIWO/>
-        <Contact/>   
+        <Contact/>
+        <section style={{height: '80px'}}/>
     </div>
   )
 }
