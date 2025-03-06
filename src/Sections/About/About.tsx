@@ -15,7 +15,7 @@ export default function About(){
           I am a software developer with a passion for building practical and user-friendly websites. 
           Problem solving is what I do best, and I have used this skill many times when creating websites that simplify complex tasks for everyday use. 
           My expertise in Full Stack development has been shaped through hands-on experience, continuous learning, and formal training at Dev Academy NZ, where I refined my skills and collaborated on team-based projects. 
-          On top of my experience in developing websites I have experience in using the cloud to deploy my website as demonstrated in this portfolio. 
+          On top of my experience in developing websites I have experience in using the cloud to deploy my websites as demonstrated in this portfolio. 
           This portfolio features a selection of projects, each demonstrating my skills through live, publicly deployed websites.</p>
       </VertBox>
     </div>
