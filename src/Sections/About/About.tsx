@@ -1,7 +1,9 @@
 import { VertBox } from "../../Components/Box";
 
+
 export default function About(){
-  return <VertBox tag='section' id='About' className="flex flex-col items-center" gap='20px'>
+  return <VertBox tag='section' id='About' className="flex flex-col items-center" gap='20px' style={{position: 'relative'}}>
+    
     <div className="content-width">
       <h2>About Me</h2>
     </div>

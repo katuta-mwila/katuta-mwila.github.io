@@ -18,7 +18,7 @@ function App() {
         <Navigation/>
         <Intro/>
 
-        <VertBox tag='sections' id='gradient-strip'>
+        <VertBox tag='section' id='gradient-strip'>
 
         </VertBox>
 
